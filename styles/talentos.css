@@ -1,0 +1,40 @@
+.container__talentos__textos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10rem 0 5rem 0 ;
+  gap: 1.8rem;
+}
+
+.talentos__vagas-abertas {
+    color: var(--cor-vinho);
+    background-color: #8E24240D;
+    border-radius: 28px;
+    line-height: 2.8rem;
+    padding: 0 1rem;
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.talentos__titulo {
+    color: var(--cor-cinza-escuro);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
+    font-size: 3.6rem;
+}
+.talentos__paragrafo {
+    color: var(--cor-cinza-claro);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.container__talentos__img {
+    display: flex;
+    justify-content: center;;
+   margin-bottom: 5rem;
+}
+.talentos__img {
+    width: 90%;
+    border-radius: 16px;
+}

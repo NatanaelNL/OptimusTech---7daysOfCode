@@ -1,0 +1,31 @@
+.container__vagas {
+    padding: 0 0 2rem 30rem;
+}
+
+.vagas__titulo__area, .vagas__titulo__cargo {
+    font-family: var(--fonte-principal);
+    color: var(--cor-cinza-escuro);
+    font-weight: 500;
+}
+.vagas__titulo__area {
+    font-size: 2rem;
+    margin: 5rem 0 3rem 0;
+}
+.vagas__titulo__cargo {
+    font-size: 1.8rem;
+    padding: 2rem;
+}
+.vagas__paragrafo {
+    font-family: var(--fonte-principal);
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--cor-cinza-claro);
+    padding: 2rem;
+}
+.vagas__borda {
+    border: 1px solid var(--cor-borda);
+    border-radius: 16px;
+    padding-bottom: 2rem;
+    width: 75%;
+    margin-bottom: 2rem;
+}
